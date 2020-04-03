@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl-be" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DKK - Realisme</title>
+  	<link rel="stylesheet" href="/css/reset_plus.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header id="top">
+      <%- include("header") -%>
+      <h1 class="real">Realisme</h1>
+    </header>
+    <main class="">
+      <p>Het realisme was een stroming in de 19e-eeuwse beeldende kunst, theater en literatuur, waarin gestreefd werd naar het weergeven van de (maatschappelijke) werkelijkheid. De stroming was vooral sterk in Frankrijk rond het midden van de 19e eeuw en wordt gezien als reactie op de romantiek. Daarnaast had het opkomende marxisme een belangrijke invloed door de gewone arbeider centraal te stellen. Uitgangspunt van de stroming was een uitspraak van Baudelaire: "je moet in je eigen tijd staan".</p>
+
+      <h2>Kunstenaars van het Realisme</h2>
+
+      <div class="grid">
+        <% for (let i=8; i<12; i++) { %>
+          <%- include('kunstwerken', {post: posts[i], index: i}); -%>
+        <% } // close forloop %>
+      </div>
+
+      <h2>Typering en Geschiedenis</h2>
+      <p>Halverwege de 19e eeuw rees er bij diverse schilders verzet tegen de afstandelijke stijl van het classicisme en de overdreven stijl van de romantiek. Het realisme beeldde alledaagse gebeurtenissen af, een groet of gewone arbeiders aan het werk op het land. De manier van schilderen was vergelijkbaar met die van de romantiek: veel aardetinten en realistische verhoudingen en kleuren. Voor het eerst werd gezocht naar de ongeïdealiseerde werkelijkheid, dit uitte zich in het afbeelden van bezwete geharde havenarbeiders, maar ook in het afbeelden van schaam- en okselhaar in naakten. Dit riep veel weerstand op, critici vonden dat de realisten zich te veel richten op datgene wat lelijk was. Realisten zagen zichzelf meer als journalisten, maar koesterden ook zeker een romantisch verlangen naar de ongeïndustrialiseerde werkelijkheid. Gustave Courbet was de oprichter, belangrijkste schilder en woordvoerder van het realisme.</p>
+
+    </main>
+    <footer>
+      <%- include("footer") -%>
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+  </body>
+
+</html>

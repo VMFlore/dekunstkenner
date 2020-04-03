@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl-be" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DKK - Alle werken</title>
+  	<link rel="stylesheet" href="/css/reset_plus.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header id="top">
+      <%- include("header") -%>
+      <h1>Alle werken</h1>
+    </header>
+    <main class="">
+
+      <div class="button-group filters-button-group">
+        <button class="button is-checked" data-filter="*">Alles</button>
+        <button class="button" data-filter=".pop">Popart</button>
+        <button class="button" data-filter=".symbo">Symbolisme</button>
+        <button class="button" data-filter=".real">Realisme</button>
+        <button class="button" data-filter=".rom">Romatisch</button>
+      </div>
+
+      <div class="deWerken">
+        <% for (let i=0; i<16; i++) { %>
+          <%- include('kunstwerken', {post: posts[i], index: i}); -%>
+        <% } // close forloop %>
+      </div>
+
+    </main>
+
+    <footer>
+      <%- include("footer") -%>
+    </footer>
+
+    <script src="/js/isotope.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+
+</html>

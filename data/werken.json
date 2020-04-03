@@ -1,0 +1,185 @@
+{
+  "kunst": [{
+    "title": "Marilyn Diptych",
+    "artist": "Andy Warhol",
+    "tags": ["Popart", "Warhol"],
+    "style": "Popart",
+    "biography": "Andy Warhol (Pittsburgh, 6 augustus 1928 – New York, 22 februari 1987) was een Amerikaans kunstenaar, filmregisseur en auteur. Warhol werkte tevens als muziekproducent en acteur. Vanuit zijn achtergrond en ervaring in de toegepaste kunst was Warhol een van de protagonisten van de popart in de Verenigde Staten in de jaren 50 en 60 van de 20e eeuw. Warhol wordt ook wel the silver prince of the pop genoemd.",
+    "content": "The Marilyn Diptych (1962) is a silkscreen painting by American pop artist Andy Warhol depicting Marilyn Monroe. The piece is one of the artist's most noted works. It is in the collection of the Tate. Silk-screening was the technique used to create this painting. The twenty-five images on the left are painted in color, the right side is black and white. The painting consists of 50 images.",
+    "image": "/imgs/marilyn.jpg",
+    "imageAlt": "Marilyn Monroe in felle kleuren en in zwart-wit",
+    "class": "pop",
+    "class2": "warhol"
+  },{
+    "title": "Whaam!",
+    "artist": "Roy Lichtenstein",
+    "tags": ["Popart", "Lichtenstein"],
+    "style": "Popart",
+    "biography": "Roy Lichtenstein (New York, 27 oktober 1923 – aldaar, 29 september 1997) was een Amerikaans popartkunstenaar. Zijn werken zijn vooral bekend vanwege de aan cartoons herinnerende afbeeldingen met felle, veelal primaire kleuren omlijnd door vette zwarte contouren. Hij maakte schilderijen, litho's en beelden.",
+    "content": "Whaam! is a 1963 diptych painting by the American artist Roy Lichtenstein. It is one of the best-known works of pop art, and among Lichtenstein's most important paintings. Whaam! was first exhibited at the Leo Castelli Gallery in New York City in 1963, and purchased by the Tate Gallery, London, in 1966. It has been on permanent display at Tate Modern since 2006.",
+    "image": "/imgs/whaam.jpg",
+    "imageAlt": "Whaam! Een zeefdruk",
+    "class": "pop",
+    "class2": "lichtenstein"
+  },{
+    "title": "Retrospect",
+    "artist": "Keith Haring",
+    "tags": ["Popart", "Haring"],
+    "style": "Popart",
+    "biography": "Keith Haring (Reading (Pennsylvania), 4 mei 1958 – New York, 16 februari 1990) was een Amerikaans kunstenaar. De kunst die Keith Haring maakte wordt soms (onterecht) popart genoemd, maar ook de termen graffiti-art en moderne kunst worden gebruikt. Zijn cartoonachtige schilderingen en tekeningen gingen onder andere over aids, drugs en apartheid.",
+    "content": "De collectie Pop Shop-prints is vertegenwoordigd via Retrospect. De symbolische figuren van Haring reflecteren op geboorte, dood, geweld en racisme. De lineaire stijl van modelleren versterkt moderne vormen van communicatie zoals billboards en advertenties.",
+    "image": "/imgs/retrospect.jpg",
+    "imageAlt": "Gekleurde tekeningen van mannetjes",
+    "class": "pop",
+    "class2": "haring"
+  },{
+    "title": "Caso de estudio",
+    "artist": "Richard Hamilton",
+    "tags": ["Popart", "Hamilton"],
+    "style": "Popart",
+    "biography": "Richard Hamilton (24 februari 1922 – 13 september 2011) was een Brits beeldend kunstenaar. Hij werd bekend als de 'uitvinder' van de popart in Europa. Hamilton werd bekend in 1956 toen hij begon met het maken van werken die later typische voorbeelden van popart genoemd zouden worden. In 1956 maakte deze Britse kunstenaar de collage Just what is it that makes today's homes so different, so appealing?. Deze wordt gezien als een van de vroegste voorbeelden van popart.",
+    "content": "Caso de estudio zijn projecten waarin werken worden gecombineerd met onderzoek, documentatie en analyse van belangrijke aspecten van auteurs en werken uit de collectie van IVAM. In deze casestudy worden werken van Richard Hamilton (Londen, 1922-2011) gepresenteerd, die door de historiografie wordt beschouwd als een van de kunstenaars die verantwoordelijk zijn voor de Britse kunsttransformatie en -ontwikkeling tussen 1950 en 1960. Hij speelde een belangrijke rol in de geboorte van de popart, vooral vanuit zijn populaire collage: Wat is het dat het huis van vandaag zo anders maakt, zo aantrekkelijk (1956).",
+    "image": "/imgs/caso.jpg",
+    "imageAlt": "Caso de estudio, een collage",
+    "class": "pop",
+    "class2": "hamilton"
+  }
+  ,
+  {
+    "title": "De kus",
+    "artist": "Gustav Klimt",
+    "tags": ["Symbolisme", "Klimt"],
+    "style": "Symbolisme",
+    "biography": "Gustav Klimt (Baumgarten, tegenwoordig deel uitmakend van Wenen), 14 juli 1862 – Wenen, 6 februari 1918) was een Oostenrijkse symbolistische schilder, muralist en tekenaar. Hij geldt als het meest prominente lid van de Wiener Secession, waarvan hij ook enige tijd voorzitter was. Kenmerkend voor zijn latere werken, waarmee hij het meest bekend werd, is het decoratieve ornamentalisme (waarbij hij vaak ook werkte met bladgoud) en de suggestief-erotische symboliek. Hij maakte vooral naam met zijn vrouwportretten en allegorische werken, maar schilderde ook een groot aantal landschappen. Klimts kunst ontstond tijdens een artistieke bloeiperiode in het Wenen van het belle époque en wordt vaak geassocieerd met de jugendstilbeweging en de art-nouveau. Zijn oeuvre wordt wel beschouwd als exemplarisch voor het toenmalige spanningsveld tussen behoudzucht en drang tot vooruitgang.",
+    "content": "De kus is een schilderij dat de Oostenrijkse schilder Gustav Klimt in de periode 1907-1908 maakte. Het schilderij werd in de flowerpowertijd wereldberoemd en is sindsdien veel afgebeeld op ansichtkaarten en posters. Het schilderij toont een grote man die een vrouw op haar wang kust. De man heeft een kamerjas met daarop hoekige symbolen om; de kleren van de vrouw tonen ronde symbolen. Het stelletje staat op de rand van een afgrond, in een veld vol bloemen. Of Klimt daar een symbolische bedoeling bij had, is niet bekend.",
+    "image": "/imgs/kus.jpg",
+    "imageAlt": "De kus van een grote man op een vrouw haar wang",
+    "class": "symbo",
+    "class2": "klimt"
+  },{
+    "title": "Het dodeneiland",
+    "artist": "Arnold Böcklin",
+    "tags": ["Sumbolisme", "Böcklin"],
+    "style": "Symbolisme",
+    "biography": "Arnold Böcklin (Bazel, 16 oktober 1827 – San Domenico bij Fiesole, provincie Florence, 16 januari 1901) was een Zwitserse schilder, tekenaar, graficus en beeldhouwer. Hij geldt als een van de belangrijkste beeldende kunstenaars van de 19e eeuw in Europa. Zijn werk wordt gerekend tot het symbolisme. Böcklin studeerde aan de academie van Düsseldorf en was van 1860 tot 1862 leraar aan de Kunstschule te Weimar. Van 1862 tot 1866 was hij werkzaam in Rome.",
+    "content": "Het dodeneiland (Duits: Die Toteninsel) is een reeks schilderijen van de Zwitserse kunstschilder Arnold Böcklin (1827–1901). Böcklin maakte tussen 1880 en 1886 vijf versies van het Het dodeneiland. Met name de derde versie was een van de eerste schilderijen waarvan op grote schaal (zwart-wit)reproducties werden gemaakt en geldt nog steeds als een van de populairste schilderijen van het symbolisme. Het werk heeft stevige romantische wortels.",
+    "image": "/imgs/dodeneiland.jpg",
+    "imageAlt": "Een eiland met gebergte",
+    "class": "symbo",
+    "class2": "bocklin"
+  },{
+    "title": "I lock my door upon myself",
+    "artist": "Fernand Khnopff",
+    "tags": ["Symbolisme", "Khnopff"],
+    "style": "Symbolisme",
+    "biography": "Fernand Edmond Jean Marie Khnopff (Grembergen, 12 september 1858 – Brussel, 12 november 1921) was een Belgische symbolistische schilder, beeldhouwer en ontwerper.Khnopffs meest bekende onderwerpen zijn landschappen te Fosset, portretten van dames uit de Brusselse bourgeoisie, stadsgezichten van Brugge en symbolistische composities. Uit de meeste doeken spreekt een mysterieuze, bevreemdende sfeer. Zijn personages vertonen vaak androgyne trekken. Zijn meesterwerk is De liefkozing uit 1896, een afbeelding van Oedipus die zich tegen de sfinx aanvlijt.",
+    "content": "I lock my door upon myself is een schilderij van de Belgische kunstschilder Fernand Khnopff, geschilderd in 1891, olieverf op doek, 72,7 x 140 centimeter. Het toont een jonge vrouw die dromerig de ruimte in staart in een verder in vlakken verdeelde compositie, geschilderd in een symbolistische stijl. Het werk bevindt zich thans in de collectie van de Neue Pinakothek te München.",
+    "image": "/imgs/locked.jpeg",
+    "imageAlt": "Een vrouw in een kamer",
+    "class": "symbo",
+    "class2": "khnopff"
+  },{
+    "title": "De drie bruiden",
+    "artist": "Jan Toorop",
+    "tags": ["Symbolisme", "Toroop"],
+    "style": "Symbolisme",
+    "biography": "Johannes Theodorus (Jan) Toorop, ook: Jean Theodor Toorop, (Poerworedjo (Nederlands-Indië), 20 december 1858 – Den Haag, 3 maart 1928)[1] was een van de belangrijkste Nederlandse beeldend kunstenaars uit de periode 1880-1910.[2] Aanvankelijk schilderde hij in impressionistische stijl, maar via het pointillisme ontwikkelde hij zich tot symbolistisch schilder.",
+    "content": "De drie bruiden is een tekening van de Nederlandse kunstschilder Jan Toorop, gemaakt in 1893, krijt, potlood en houtskool op papier, 78 x 98 centimeter groot. Het is een uitbeelding van drie bruiden die staan voor verschillende aspecten van de vrouw en geldt als een van de eerste echt[1] symbolistische werken in de Nederlandse schilderkunst. Onmiskenbaar is ook de invloed van de toentertijd opkomende jugendstil en art-nouveau. In 1893 werd de tekening geëxposeerd bij de Nederlandsche Etsclub en aangekocht door de kunsthandel Van Wisselingh. Helene Kröller-Müller kocht het in 1919 op een veiling en thans bevindt het zich nog altijd in de collectie van het Kröller-Müller Museum te Otterlo.",
+    "image": "/imgs/bruiden.jpg",
+    "imageAlt": "Drie bruiden klaar voor de trouw",
+    "class": "symbo",
+    "class2": "toroop"
+  }
+  ,
+  {
+    "title": "Der Wanderer über dem Nebelmeer",
+    "artist": "Caspar David Friedrich",
+    "tags": ["Realisme", "Friedrich"],
+    "style": "Realisme",
+    "biography": "Caspar David Friedrich (Greifswald, 5 september 1774 – Dresden, 7 mei 1840) was een Duits schilder en tekenaar uit de periode van de romantiek. In 1798 ging hij naar Dresden en daar verbleef hij zijn hele leven. Hij was bevriend met Goethe en Novalis. Friedrich en zijn vriend Philipp Otto Runge hebben onbewust voor een vernieuwing in de beeldende kunst gezorgd. Friedrich was gefascineerd door het mystieke en had belangstelling voor het raadsel van het leven. Hij gaf het landschap een ziel en maakte de natuur tot klankbord van menselijke gevoelens.",
+    "content": "Der Wanderer über dem Nebelmeer (Nederlands: De wandelaar boven de nevelen) is een schilderij van de Duitse kunstschilder Caspar David Friedrich uit circa 1817, olieverf op doek, 94,8 x 74,8 centimeter groot. Het toont een van op de rug beziene man die vanaf een hoge rots over een zee van mist wegkijkt naar het hem omringende gebergte. Het doek geldt als exemplarisch voor de Duitse romantiek. Het bevindt zich in de collectie van de Hamburger Kunsthalle.",
+    "image": "/imgs/wandelaar.jpg",
+    "imageAlt": "Een wandelaar met een zicht op over de wolken",
+    "class": "real",
+    "class2": "friedrich"
+  },{
+    "title": "De Vrijheid leidt het volk",
+    "artist": "Eugène Delacroix",
+    "tags": ["Realisme", "Delacroix"],
+    "style": "Realisme",
+    "biography": "Ferdinand Victor Eugène Delacroix (Charenton-Saint Maurice, 26 april 1798 – Parijs, 13 augustus 1863) wordt gezien als de belangrijkste Franse kunstschilder van de romantiek (vandaar dat hij ook weleens Le prince des romantiques genoemd wordt), naast de jong gestorven Théodore Géricault. Hij wordt ook wel een literair schilder genoemd (onder meer door Baudelaire) omdat hij zijn thema's vaak ontleende aan schrijvers als Shakespeare (Hamlet et Horatio au cimetière) en Dante (Barque de Dante).",
+    "content": "De Vrijheid leidt het volk (Frans: La Liberté guidant le peuple) is een schilderij van de Franse schilder Eugène Delacroix. Het verbeeldt de vrijheid als Marianne, het nationale symbool van Frankrijk, die de revolutionairen aanvoert bij de Julirevolutie van 1830. Het is geschilderd met olieverf. Het doek heeft een afmeting van 260 bij 325 centimeter.",
+    "image": "/imgs/vrijheid.jpg",
+    "imageAlt": "Vrijheid van een groep mensen",
+    "class": "real",
+    "class2": "delacroix"
+  },{
+    "title": "Hylas en de nimfen",
+    "artist": "John William Waterhouse",
+    "tags": ["Realisme", "Waterhouse"],
+    "style": "Realisme",
+    "biography": "John William Waterhouse (Rome, 6 april 1849 – Londen, 10 februari 1917) was een Engels schilder. Ook zijn vader was kunstschilder. Hij wordt gerekend tot de prerafaëlieten. Na zijn opleiding aan een middelbare school in Leeds ging hij als leerling in het vak beeldhouwen naar de Royal Academy of Arts in Londen. Daar stapte hij al na een half jaar op om zelfstandig te gaan werken en dan voornamelijk als schilder. Hij werkte in Londen in de Primrose Hill Studios in de wijk Kensington maar woonde een paar kilometer verderop aan de Abbey Road. Zijn voorkeur ging uit naar mythologische voorstellingen.",
+    "content": "Hylas and the nymphs (Hylas en de nimfen) is een schilderij van de prerafaëlitische Engelse kunstschilder John William Waterhouse, geschilderd in 1896, olieverf op doek, 98,2 x 163,3 centimeter. Het toont de argonaut Hylas die verleid wordt door een aantal waternimfen. Het schilderij bevindt zich sinds 1896 in de collectie van de Manchester Art Gallery.",
+    "image": "/imgs/nymphs.jpg",
+    "imageAlt": "Nimfen in het water verleiden Hylas",
+    "class": "real",
+    "class2": "waterhouse"
+  },{
+    "title": "El 3 de mayo en Madrid",
+    "artist": "Francisco Goya",
+    "tags": ["Realisme", "Goya"],
+    "style": "Realisme",
+    "biography": "Francisco José De Goya y Lucientes (Fuendetodos, in de provincie Zaragoza, Aragón, 30 maart 1746 - Bordeaux, 16 april 1828) was een Spaanse kunstschilder en graveur. Goya werd geboren in Fuendetodos in Spanje, maar verbleef later voornamelijk in Madrid. Aan het jezuïetencollege van Zaragoza werd zijn talent opgemerkt door Pignatelli, een priester afkomstig uit de Italiaanse adel. Die stelde voor dat hij in de leer zou gaan bij José Luzán y Martinez, een van de belangrijkste plaatselijke kunstenaars. Zijn vader had connecties in artistieke kringen en kreeg dit voor elkaar toen Francisco 14 was. Goya zou zich er later over beklagen dat de lessen voornamelijk bestonden uit het kopiëren van gravures van bekende artiesten. Later mocht hij klassieke beelden tekenen. In het streng-katholieke Spanje waren levende naaktmodellen verboden.",
+    "content": "El 3 de mayo en Madrid ofwel Los fusilamientos (Nederlands: De derde mei in Madrid of De executies) is een schilderij van de Spaanse kunstschilder Francisco Goya, geschilderd in 1814, olieverf op doek, 268 x 347 centimeter. Het toont de executie van Spaanse burgers na de Madrileense opstand van 2 mei 1808 tegen de troepen van Napoleon Bonaparte. Het schilderij bevindt zich thans in de collectie van het Museo Nacional del Prado te Madrid.",
+    "image": "/imgs/madrid.jpg",
+    "imageAlt": "Een groep mensen die onder het vuur worden gehouden bij een kampvuur",
+    "class": "real",
+    "class2": "goya"
+  }
+  ,
+  {
+    "title": "Zwei Männer in Betrachtung des Mondes",
+    "artist": "Caspar David Friedrich",
+    "tags": ["Romantisch", "Friedrich"],
+    "style": "Romantisch",
+    "biography": "Caspar David Friedrich (Greifswald, 5 september 1774 – Dresden, 7 mei 1840) was een Duits schilder en tekenaar uit de periode van de romantiek. In 1798 ging hij naar Dresden en daar verbleef hij zijn hele leven. Hij was bevriend met Goethe en Novalis. Friedrich en zijn vriend Philipp Otto Runge hebben onbewust voor een vernieuwing in de beeldende kunst gezorgd. Friedrich was gefascineerd door het mystieke en had belangstelling voor het raadsel van het leven. Hij gaf het landschap een ziel en maakte de natuur tot klankbord van menselijke gevoelens.",
+    "content": "Zwei Männer in Betrachtung des Mondes (Nederlands: Twee mannen bij het aanschouwen van de maan) is een schilderij van de Duitse kunstschilder Caspar David Friedrich, gemaakt in 1819-1820, 33 × 44,5 centimeter groot. Het toont twee figuren in een landschap, tegen een nachtelijke achtergrond met een volle maan. Geldend als een exemplarisch werk binnen de Duitse romantiek, drukt het een sterk gevoel van melancholische Sehnsucht uit. Het werk bevindt zich thans in de collectie van de Galerie Neue Meister te Dresden.",
+    "image": "/imgs/maan.jpg",
+    "imageAlt": "Twee mannen die naar de maan kijken",
+    "class": "rom",
+    "class2": "friedrich"
+  },{
+    "title": "Zelfportret op een zolderkamer",
+    "artist": "Tommaso Minardi",
+    "tags": ["Romantisch", "Minardi"],
+    "style": "Romantisch",
+    "biography": "Tommaso Minardi (Faenza 4 december 1787 - Rome, 12 januari 1871) was een Italiaans kunstschilder. Hij schilderde aanvankelijk in de stijl van de romantiek stijl, later werd hij beïnvloed door de Nazareners. Minardi kreeg zijn opleiding op de privéschool van Giuseppe Zauli in Faenza. Vervolgens werkte hij tien jaar als graficus voor Giuseppe Longhi te Rome. Hij maakte onder andere reproducties van Michelangelo's Laatste oordeel in de Sixtijnse kapel en bestudeerde werken van Leonardo da Vinci en Rafaël. In 1819 werd hij directeur van de Academie voor Schone Kunsten te Perugia en van 1821 tot 1858 doceerde hij aan de Accademia di San Luca te Rome. Hij was de leermeester van Giovanni Boldini.",
+    "content": "Zelfportret op een zolderkamer, ook wel kortweg Zelfportret (originele Italiaanse titel: Autoritratto nella soffitta of Autoritratto), is een schilderij van de Italiaanse kunstschilder Tommaso Minardi, gemaakt in 1807, 37 × 33 centimeter groot. Het toont de kunstenaar in zijn studio, op een zolder. Het werk bevindt zich momenteel in de collectie van de Galleria d'Arte Moderna in het Palazzo Pitti te Florence.",
+    "image": "/imgs/portret.jpg",
+    "imageAlt": "Tommaso Minardi op een zolderkamer",
+    "class": "rom",
+    "class2": "minardi"
+  },{
+    "title": "Een schrijver die zijn pen versnijdt",
+    "artist": "Jan Ekels de Jonge",
+    "tags": ["", "de Jonge"],
+    "style": "Romantisch",
+    "biography": "Jan Ekels de Jonge (ook genoemd: Jan Ekels II) (Amsterdam, 28 juni 1759 - aldaar, 4 juni 1793) was een Nederlands kunstschilder. Johannes Hermannus Ekels werd in de katholieke schuilkerk 't Boompje gedoopt als zoon van Jan Ekels de Oude en Sibilla Angenent. Hij kreeg les van zijn vader, en bezocht de Amsterdamse Tekenacademie. Van 1776 tot 1778 studeerde hij in Parijs, waar hij kennismaakte met het classicisme. In 1781 won hij de eerste prijs van de Amsterdamse Tekenacademie en als geschenk kreeg hij een medaille en het Groot-Schilderboek van Gerard de Lairesse. In 1783 trok hij met een tweetal vrienden langs de Rijn om in Duitsland musea te bezoeken. In datzelfde jaar werd hij toegelaten tot het genootschap Felix Meritis op Keizersgracht. In 1790 woonde hij op de Achtergracht. Na de dood van zijn ouders erfde hij een klein fortuin en beoefende de kunst op z'n gemak.",
+    "content": "Een schrijver die zijn pen versnijdt is een schilderij van de Nederlandse kunstschilder Jan Ekels de Jonge, olie op paneel, 27,5 x 23,5 centimeter groot, gemaakt in 1784. Het toont een ruggelings gezeten schrijver in zijn interieur. Het werk bevindt zich sinds 1880 in de collectie van het Rijksmuseum Amsterdam.",
+    "image": "/imgs/pen.jpeg",
+    "imageAlt": "Een schrijver aan zijn bureau",
+    "class": "rom",
+    "class2": "jonge"
+  },{
+    "title": "De nachtmerrie",
+    "artist": "Johann Heinrich Füssli",
+    "tags": ["Romantisch", "Füssli"],
+    "style": "Romantisch",
+    "biography": "Johann Heinrich Füssli (Zürich, 7 februari 1741 - Putney bij Londen, 16 april 1825) was een Zwitsers-Britse schilder en publicist die in Engeland als Henry Fuseli bekend werd. Füssli stond bekend als een avontuurlijke persoonlijkheid. Hij was aanvankelijk predikant, maar in 1764 trad hij uit de kerk. Tussen 1770 en 1780 woonde hij in Italië. Hij bewonderde het werk van Michelangelo en de Italiaanse maniëristen. Ook komen er in zijn werk figuren voor die een relatie tonen met de klassieke beeldhouwkunst. In veel van zijn werken geeft hij het sublieme weer in de vorm van het angstaanjagende. Zijn werk is bijzonder expressief en onconventioneel. Hij maakt gebruik van vreemde verkortingen en verbeeldt met name het irrationele door werelden te creëren die vaak in strijd zijn met dagelijkse zintuiglijke ervaringen. Zijn werk vertoont vaak een voorkeur voor het macabere en het nachtmerrieachtige.",
+    "content": "De nachtmerrie (originele Engelse titel: The Nightmare) is een schilderij van de Zwitsers-Engelse kunstschilder Johann Heinrich Füssli, gemaakt in 1781, 101,6 × 126,7 centimeter groot. Het toont een vrouw in een angstdroom met een incubus op haar borst en geldt als een schoolvoorbeeld van de vroeg-romantiek. Het behoort tot de collectie van het Detroit Institute of Arts.",
+    "image": "/imgs/nachtmerrie.jfif",
+    "imageAlt": "Een vrouw die een nachtmerrie heeft",
+    "class": "rom",
+    "class2": "fussli"
+  }]
+}

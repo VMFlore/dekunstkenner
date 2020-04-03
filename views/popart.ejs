@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl-be" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DKK - Popart</title>
+  	<link rel="stylesheet" href="/css/reset_plus.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header id="top">
+      <%- include("header") -%>
+      <h1 class="pop">Popart</h1>
+    </header>
+    <main class="">
+      <p>Popart is een kunststroming die tegelijkertijd, maar los van elkaar, is ontstaan in het Verenigd Koninkrijk en de Verenigde Staten van Amerika in het midden van de jaren vijftig en haar hoogtijdagen beleefde in de jaren zestig van de 20e eeuw.</p>
+
+      <h2>Popartkunstenaars</h2>
+
+      <div class="grid">
+        <% for (let i=0; i<4; i++) { %>
+          <%- include('kunstwerken', {post: posts[i], index: i}); -%>
+        <% } // close forloop %>
+      </div>
+
+      <h2>Typering</h2>
+      <ul class="type">
+        <li>Figuratief</li>
+        <li>Speels gebruik van de symbolen van de Westerse consumptiecultuur. Ironie en humor.</li>
+        <li>Gebruik van commerciële materialen en voorwerpen, producten uit het leven van alledag.</li>
+        <li>De beeldende middelen worden gebruikt als bij reclame, film, televisie, affiches en strips. Vervreemding door vergroting of herhaling, of door gebruik van ongebruikelijke materialen.</li>
+        <li>Een collage-achtig uiterlijk, zowel in twee- als driedimensionale beelden.</li>
+        <li>Geen persoonlijk handschrift van de kunstenaar. Soms laat hij werk zelfs door anderen uitvoeren. De kunstenaar gebruikt vaak 'ready mades': kant-en-klare, bestaande voorwerpen.</li>
+        <li>De identiteit van de kunstenaar, zijn imago, wordt soms zorgvuldig opgebouwd.</li>
+      </ul>
+
+      <h2>Geschiedenis</h2>
+      <p>Popart is een stroming in de moderne kunst. De naam is een afkorting, geïntroduceerd door de Britse criticus Lawrence Alloway, die deel uitmaakte van een groep kunstenaars, architecten en critici, the Independent Group, die elkaar ontmoetten in het Institute of Contemporary Art in Londen. Alloway gebruikte de term in 1949 als afkorting van het begrip popular mass culture[1], dit is alles wat tot geïndustrialiseerde massacultuur behoort. Het kunstwerk van de Engelsman Richard Hamilton "Just What Is It That Makes Today's Homes So Different, So Appealing?", een collage uit 1956, wordt algemeen beschouwd als het begin van de popart. In die collage zijn alle elementen aanwezig waarvan de popart gebruik zal maken.</p>
+
+    </main>
+    <footer>
+      <%- include("footer") -%>
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+  </body>
+
+</html>

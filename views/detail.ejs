@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio - <%=post.title %></title>
+    <link rel="stylesheet" href="/css/reset_plus.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header>
+      <%- include("header") -%>
+      <h1><%=post.title %></h1>
+      <h2><%=post.artist %></h2>
+    </header>
+
+    <p><%=post.biography %></p>
+    <article class="detail">
+      <img src="<%= post.image %>" alt="<%= post.imageAlt %>" class="banner"/>
+      <div class="inhoud">
+        <p><%=post.content %></p>
+      </div>
+      <ul class="type">
+        <% for(let t=0; t<post.tags.length; t++) { %>
+          <li class="tags"><%=post.tags[t] %></li>
+        <% } // end forloop %>
+      </ul>
+    </article>
+
+
+
+    <footer>
+      <%- include("footer") -%>
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

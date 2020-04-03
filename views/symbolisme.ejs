@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl-be" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DKK - Symbolisme</title>
+  	<link rel="stylesheet" href="/css/reset_plus.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header id="top">
+      <%- include("header") -%>
+      <h1 class="symbo">Symbolisme</h1>
+    </header>
+    <main class="">
+      <p>Het symbolisme was tijdens het fin de siècle een stroming in de beeldende kunst, muziek en literatuur die zijn hoogtepunt bereikte tussen 1880 en 1910. In eerste instantie vooral in Frankrijk, maar spoedig daarna ook elders in Europa. Het ontstaan van het symbolisme is te zien als een reactie op het rond 1850 dominante realisme en naturalisme in de kunst. Verbeeldingskracht, fantasie en intuïtie werden centraal gesteld. Het symbolisme kenmerkt zich door een sterke hang naar het verleden en een gerichtheid op het onderbewuste, het ongewone en het onverklaarbare. Het symbool stond daarbij centraal, en wordt een zintuiglijk waarneembaar teken dat verwijst naar een poort naar de niet-zintuiglijke wereld. De innerlijke, irrationele ervaringen worden belangrijk, met de nadruk op droombeelden en de dood. Vormen van machteloosheid, loomheid en decadentie roepen een sfeer op van onheilsverwachting en dreiging.</p>
+
+      <h2>Symbolisme kunstenaars</h2>
+
+      <div class="grid">
+        <% for (let i=4; i<8; i++) { %>
+          <%- include('kunstwerken', {post: posts[i], index: i}); -%>
+        <% } // close forloop %>
+      </div>
+
+      <h2>Typering</h2>
+      <p>De term symbolisme verwijst niet zozeer naar een bepaalde stijl (vorm) als wel naar een wijze van benadering (inhoud). In de schilderkunst werd de term toegepast op zeer verschillende stijlen, die echter alle gemeen hadden dat ze het realisme en het naturalisme afwezen. Verbeeldingskracht, spiritualiteit en intuïtie kwamen centraal te staan. Er was sprake van een sterke hang naar het verleden en een gerichtheid op het onderbewuste, het esoterische en het onverklaarbare. Symbolisten wilden niet afstandelijk observeren, ze zochten vooral naar het bijzondere, het fantastische.
+      <br><br>
+      Het symbool is een beeld, een term of een klank die iets anders verbeeldt, het verwijst naar een afwezige realiteit die het alledaagse overstijgt. In de kern gaat het om een conflict tussen twee wereldbeelden: aan de ene kant is er de onveranderlijke wereld van handel en industrie, onverschillig tegenover diepere waarden. Aan de andere kant is er het geloof in een transcendente wereld die een totale verandering belooft van wat gegeven is. “Het symbolisme drukt dus iets anders uit dan de zichtbare werkelijkheid”, schrijft de hellenist E.R. Dodds, “en dat niet zomaar oppervlakkig. De stroming gaat dieper: ze raakt aan de voortdurende veranderende staat van de beschaving en aan haar endogene neurose”.[3]
+      <br><br>
+      Primair gaat het de symbolisten om het scheppen van betekenis in een wereld waarin de vervulling van de eerste levensbehoeften de plaats had ingenomen van een vroegere gemeenschappelijke visie op de wereld. Kunst die van enig belang is, zo vonden de symbolisten, verwijst naar een niveau dat uitstijgt boven zichzelf en de wereld.</p>
+
+      <h2>Geschiedenis</h2>
+      <p>Het symbolisme ontstond als kunststroming in de tweede helft van de negentiende eeuw. De Europese samenleving in het midden van de negentiende eeuw kenmerkte zich door grote veranderingen. Er was sprake van een toenemende industrialisatie, technologische veranderingen, urbanisatie en toenemende sociale verschillen. Het was een tijd van nieuwe ontdekkingen en vooruitgangsdenken: positivistisch rationalisme en sociaaleconomisch realisme stonden centraal.
+      <br><br>
+      Tegenover het vooruitgangsdenken ontstond evenwel bij velen een gevoel dat tegelijkertijd ‘iets goeds’ verloren dreigde te gaan, vooral gelegen in het oude culturele stelsel. “Je krijgt het gevoel”, schreef de symbolistische dichter Gustave Kahn, “dat deze mensen alleen maar naar bronnen van inkomsten lopen te zoeken; de bron van de dromen droogt op”.[1] De positivistische kijk op de wereld werd in de tweede helft van de negentiende eeuw ook steeds vaker ervaren als een onderdrukkende kracht. Er ontstond vooral bij veel kunstenaars een deprimerend gevoel van verval, dat bepalend zou worden voor de opkomst van het symbolisme.</p>
+
+    </main>
+    <footer>
+      <%- include("footer") -%>
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+  </body>
+
+</html>

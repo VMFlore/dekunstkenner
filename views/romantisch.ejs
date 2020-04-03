@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl-be" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DKK - Romantisch</title>
+  	<link rel="stylesheet" href="/css/reset_plus.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header id="top">
+      <%- include("header") -%>
+      <h1 class="rom">Romantisch</h1>
+    </header>
+    <main class="">
+      <p>De romantiek is een stroming binnen de westerse schilderkunst, deel uitmakend van een bredere romantische cultuurbeweging. Haar bloeiperiode kan gedateerd worden tussen het einde van de achttiende eeuw en het midden van de negentiende eeuw. De kenmerken van de romantische schilderkunst waren niet eenduidig en verschilden per land, maar hadden als rode draad de nadruk op de verbeeldingskracht en de subjectieve expressie van de individuele kunstenaar. Vaak werd de werkelijkheid enigszins geïdealiseerd weergegeven. De natuur werd ervaren als "bezield". Landschappen en historische gebeurtenissen waren veelvoorkomende onderwerpen, maar er was ook aandacht voor de donkere kanten van het menselijke bestaan, dromen en extreme ervaringen. Tot de bekendste romantische kunstenaars behoren de Duitser Caspar David Friedrich, de Engelsman John Constable en de Fransman Eugène Delacroix. Hun onderlinge verschillen zijn exemplarisch voor de diversiteit waarin de stroming zich in onderscheiden landen ontwikkelde.</p>
+
+      <h2>Romantische kunstenaars</h2>
+
+      <div class="grid">
+        <% for (let i=12; i<16; i++) { %>
+          <%- include('kunstwerken', {post: posts[i], index: i}); -%>
+        <% } // close forloop %>
+      </div>
+
+      <h2>Typering</h2>
+      <p>Rond 1800 etaleerden schrijvers, filosofen en kunstenaars in Duitsland een nieuwe visie op de wereld die zij "romantisch" noemden. De stroming ontstond als een reactie op het rationalistische, op universele waarden georiënteerde neoclassicisme. Zij had in de grond een subjectief, idealistisch en individualistisch karakter. In de schilderkunst betekende dit doorgaans, in de woorden van Caspar David Friedrich, "dat een schilder niet alleen moet schilderen wat hij voor zich ziet, maar ook wat hij in zichzelf waarneemt. Als hij daar niets vindt, moet hij stoppen met schilderen". Men verloor zichzelf in dromen. Doorgaans werd de werkelijkheid mooier weergegeven dan zij feitelijk was (esthetisering). Passie, emotie en persoonlijk ervaren sentiment vormden cruciale drijfveren. "Sehnsucht" (een soort van onbestemd verlangen) en "het sublieme" (de beleving van het grootse en onbevattelijke) ontwikkelden zich tot centrale begrippen.
+      </p>
+
+
+      <h2>Geschiedenis</h2>
+      <p>De beweging van de romantiek ontstond rond 1800 niet van de ene dag op de andere, maar had haar wortels in de tweede helft van de achttiende eeuw, een periode die ook wel vroegromantiek wordt genoemd. Pleitbezorgers van wat toen "moderniteit" heette, begonnen de houdbaarheid van de classicistische normen ter discussie te stellen. In plaats van een esthetiek op basis van onwrikbare waarden ontwikkelde zich met name in Frankrijk en Engeland een leer over "het schone" op basis van eigen smaak en sensibiliteit. Het gevoel en de persoonlijke beleving van de kunstenaar kwamen centraal te staan.</p>
+
+    </main>
+    <footer>
+      <%- include("footer") -%>
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl-be" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>De Kunst Kenner</title>
+  	<link rel="stylesheet" href="/css/reset_plus.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header id="top">
+      <%- include("header") -%>
+      <h1>De Kunst Kenner</h1>
+    </header>
+    <main class="">
+      <h2>In de kijker</h2>
+      <div class="kijker">
+        <%- include('kunstwerken', {post: posts[11], index: 11}); -%>
+      </div>
+
+
+      <h2>De stijlen</h2>
+      <div class="stijlen">
+        <a class="popart" href="/popart">
+          <h3 class="pop">Popart</h3>
+        </a>
+        <a class="symbolisme" href="/symbolisme">
+          <h3 class="symbo">Symbolisme</h3>
+        </a>
+        <a class="realisme" href="/realisme">
+          <h3 class="real">Realisme</h3>
+        </a>
+        <a class="romantisch" href="/romantisch">
+          <h3 class="rom">Romantisch</h3>
+        </a>
+        <a class="alleWerken" href="/werken">
+          <h3 class="rom">Bekijk alle werken</h3>
+        </a>
+      </div>
+
+
+    </main>
+
+    <footer>
+      <%- include("footer") -%>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nl-be" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flore Van Mierlo - home</title>
+  	<link rel="stylesheet" href="/css/reset_plus.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header id="top">
+      <%- include("header") -%>
+      <h1>Contact</h1>
+    </header>
+    <main class="">
+      <p>Deze website is ontworpen door Flore Van Mierlo als opdracht van het vak Crossmedia Technologie 4.</p>
+      <h2>Contactgegevens</h2>
+      <ul class="type contact">
+        <li>AP Hogeschool</li>
+        <li>Campus Spoor Noord</li>
+        <li>Ellermanstraat 33, 2060 Antwerpen</li>
+        <li>+32 3 220 33 00</li>
+      </ul>
+      <ul class="type contact">
+        <li>Flore Van Mierlo</li>
+        <li>2000 Antwerpen</li>
+        <li>www.florevanmierlo.be</li>
+      </ul>
+
+      <h1 style="margin-top: 3rem;">Formulier</h1>
+      <form>
+        <div>
+          <h5>Naam:</h5>
+          <br>
+          <input type="text" name="full-name">
+        </div>
+        <div>
+          <h5>E-mail:</h5>
+          <br>
+          <input type="e-mail" name="e-maile">
+        </div>
+        <div>
+          <h5>Onderwerp:</h5>
+          <br>
+          <select name="security-questions">
+            <option value="nick-name">Algemeen</option>
+            <option value="first-pet-name">Popart</option>
+            <option value="first-job">Symbolisme</option>
+            <option value="nick-name">Realisme</option>
+            <option value="nick-name">Romantisch</option>
+          </select>
+        </div>
+        <div>
+          <textarea name="answer" cols="40" rows="6"></textarea>
+        </div>
+        <div>
+          <input type="checkbox" name="terms-conditions" value="accept"><p class="input">I agree to accept terms and conditions.</p>
+          <input type="submit" value="Verstuur">
+        </div>
+      </form>
+    </main>
+    <footer>
+      <%- include("footer") -%>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+
+</html>
