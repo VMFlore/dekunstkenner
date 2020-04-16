@@ -13,7 +13,6 @@
   "author": "Flore Van Mierlo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "ejs": "^6.13.4"
+    "express": "^4.17.1"
   }
 }
