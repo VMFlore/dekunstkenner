@@ -337,3 +337,25 @@ footer > h4{
   bottom: 2rem;
   left: 2rem;
 }
+
+@supports (grid-area: auto) {
+  @media (min-width: 800px) {
+    html{
+      background-color: #CC6F76;
+    }
+
+    body{
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      top: 0;
+      padding-top: 2rem;
+      background-color: white;
+    }
+
+    img.logo{
+      margin-top: 0rem;
+    }
+  }
+}
